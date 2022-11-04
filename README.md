@@ -22,8 +22,8 @@ O site é composto por cinco seções:
 
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
-- HTML;
-- CSS;
+- React;
+- STYLED-COMPONENTS;
 - JAVASCRIPT
 - SCROLLREVEAL;
 - ANIMATE.CSS
