@@ -1,10 +1,15 @@
 import React from "react";
-import { AsideStyle } from "./Style";
+import { AsideStyle, Article, Pointer } from "./Style";
+import fourpoint from '../../../assets/fourpoints.svg'
 
 export default function Aside() {
     return (
-        <AsideStyle>
-            <h1>teste</h1>
-        </AsideStyle>
+        <Article>
+            <AsideStyle>
+                <Pointer>
+                    <img src={fourpoint} height='20px'/>
+                </Pointer>
+            </AsideStyle>
+        </Article>
     )
 }

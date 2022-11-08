@@ -1,8 +1,7 @@
 import React from "react";
 import Logo from '../../../assets/Logo.svg'
 import button from '../../../assets/button.svg'
-import { HeaderStyle, Button, MainTxt, MiniTxt, Txts, TxtButton } from "./Style";
-import ImgMain from '../ImgMain/ImgMain'
+import { HeaderStyle, Button, MainTxt, MiniTxt, Txts, TxtButton, Span1 } from "./Style";
 
 export default function Header() {
 
@@ -11,7 +10,6 @@ export default function Header() {
     }
 
     return (
-        <>
         <HeaderStyle>
             <img src={Logo} height='50px' />
             <Txts>
@@ -22,7 +20,5 @@ export default function Header() {
                 </TxtButton>
             </Txts>
         </HeaderStyle>
-        <ImgMain/>
-        </>
     )
 }

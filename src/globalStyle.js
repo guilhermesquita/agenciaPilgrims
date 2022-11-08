@@ -6,4 +6,15 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
 }
+
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 2px;
+    background-color: gray;
+    border-radius: 10px;
+}
 `

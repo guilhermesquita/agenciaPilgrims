@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderStyle = styled.header`
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
     margin-top: 10px;
     display: flex;
     flex-direction: column;
@@ -8,6 +9,7 @@ export const HeaderStyle = styled.header`
     padding-left: 150px;
     width: 60%;
     gap: 50px;
+    height: 98vh;
 `
 
 export const Button = styled.button `
@@ -17,11 +19,13 @@ export const Button = styled.button `
 `
 
 export const MainTxt = styled.p `
-    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
-    font-family: Arial, Helvetica, sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    font-family: 'Roboto', sans-serif, Arial;
     font-weight: 700;
     color: #222222;
-    font-size: 80px;
+    font-size: 16vh;
+    width: 40%;
+    line-height: 90%;
 `
 
 export const MiniTxt = styled.p `
@@ -29,6 +33,8 @@ export const MiniTxt = styled.p `
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 400;
     color: #8D8E90;
+    font-size: 80%;
+    width: 40%;
 `
 export const Txts = styled.article `
     display: flex;
@@ -38,5 +44,7 @@ export const Txts = styled.article `
 
 export const TxtButton = styled.article `
     display: flex;
-    gap: 50px;
+    gap: 10px;
+`
+export const Span1 = styled.article `
 `
