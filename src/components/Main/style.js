@@ -58,7 +58,7 @@ export const Form = styled.form `
 `
 
 export const Button = styled.button `
-    width: 30%;
+    width: 33%;
     height: 42px;
     border-radius: 40px;
     color: white;
