@@ -42,7 +42,7 @@ export const Form = styled.form `
         margin-top: 20px;
     }
     input{
-        width: 60%;
+        width: 45%;
         border: 0;
         border-bottom: 4px #FF5200 solid;
         outline: 0;
@@ -53,6 +53,7 @@ export const Form = styled.form `
         :focus{
             font-size: 20px;
             border-bottom: 4px #816F67 solid;
+            width: 50%;
         }
     }
 `
