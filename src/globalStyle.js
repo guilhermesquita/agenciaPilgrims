@@ -9,12 +9,11 @@ export const GlobalStyle = createGlobalStyle`
 
 ::-webkit-scrollbar{
     width: 7px;
-    background-color: black;
+    background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb{
     width: 2px;
-    background-color: red;
-    border-radius: 10px;
+    background-color: black;
 }
 `

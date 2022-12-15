@@ -1,22 +1,24 @@
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Slides } from './style'
 
-// Import Swiper styles
-
+import 'swiper/css';
+import { Black } from './Slides/Black/Black';
 
 export const Slider = () => {
   return (
+<Slides>
     <Swiper
-      spaceBetween={50}
+      spaceBetween={400}
       slidesPerView={3}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
-      ...
+        <SwiperSlide><Black/></SwiperSlide>
+        <SwiperSlide><Black/></SwiperSlide>
+        <SwiperSlide><Black/></SwiperSlide>
+        <SwiperSlide><Black/></SwiperSlide>
+      
     </Swiper>
+  </Slides>
   );
 };
