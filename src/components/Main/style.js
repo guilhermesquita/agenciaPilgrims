@@ -9,6 +9,7 @@ export const MainPage = styled.main `
         display: flex;
         flex-direction: column;
         gap: 90px;
+        background-color: #FBFBFB;
         article{
             display: flex;
             flex-direction: column;
@@ -26,8 +27,25 @@ export const MainPage = styled.main `
         background-color: #FF5200;
         width: 50%;
         padding-top: 20px;
-        img{
+        img:nth-child(1){
             margin-left: 70%;
+        }
+        article{
+            position: relative;
+            p{
+                position: absolute;
+                top: 250px;
+                font-family: 'IBM Plex Mono', monospace;
+                font-size: 25px;
+                color: #FFFFFF;
+                width: 60%;
+                left: 90px;
+            }
+            img{
+                position: absolute;
+                right: 0;
+                top: 120px;
+            }
         }
     }
 `

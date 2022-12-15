@@ -4,7 +4,8 @@ import { MainPage, Form, Button } from './style'
 import emailjs from '@emailjs/browser'
 import { useForm } from '../../hooks/useForm'
 import { ClipLoader } from 'react-spinners'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import bgLogo from '../../assets/bgLogo.svg'
 
 export const Main = () => {
 
@@ -63,6 +64,12 @@ export const Main = () => {
             </section>
             <section>
                 <img src={pointers}/>
+
+                <article>
+                    <p>Venha para uma agência de Marketing 100% focada no seu resultado.</p>
+                    <img src={bgLogo} width='400px'/>
+                </article>
+
             </section>
         </MainPage>
     )
