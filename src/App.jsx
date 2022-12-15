@@ -1,5 +1,6 @@
 import React from "react";
 import { Main } from "./components/Main/Main";
+import { Results } from "./components/Results/Results";
 import { GlobalStyle } from "./globalStyle";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <GlobalStyle/>
       <Main/>
+      <Results/>
     </div>
   )
 }
